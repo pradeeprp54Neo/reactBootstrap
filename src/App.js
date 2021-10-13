@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Main from './Components/Main';
+import NavigationBar from './Components/NavigationBar';
+import RForm from './Components/RForm';
+import {BrowserRouter as Router , Route, Link,Switch} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+    < div className="bg-light">
+    <NavigationBar />
+    <Switch>
+    <Route path='/home' exact component={Main} />
+    <Route path='/form' exact component={RForm} />
+    </Switch>
     </div>
+    </Router>
   );
 }
 

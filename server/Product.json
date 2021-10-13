@@ -1,0 +1,16 @@
+{
+    "Product":[
+        {"pname":"Red Hoddy","price":500,"img":"/images/a1.jpg"},
+        {"pname":"Denim jacket","price":500,"img":"/images/a2.jpg"},
+        {"pname":"Biker Pants","price":500,"img":"/images/a3.jpg"},
+        {"pname":"Red sneakers","price":500,"img":"/images/a4.jpg"},
+        {"pname":"snow glasses","price":500,"img":"/images/a5.jpg"},
+        {"pname":"Red velbet hand bag","price":500,"img":"/images/a6.jpg"},
+        {"pname":"Red cap","price":500,"img":"/images/a7.jpg"},
+        {"pname":"hockey gaurd","price":500,"img":"/images/a8.jpg"},
+        {"pname":"aassic shoes","price":500,"img":"/images/a9.jpg"},
+        {"pname":"blue diamond ring","price":500,"img":"/images/a10.jpg"},
+        {"pname":"Hockey Golves","price":500,"img":"/images/a11.jpg"},
+        {"pname":"Helmet","price":500,"img":"/images/a12.jpg"}
+    ]
+}
